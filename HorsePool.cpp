@@ -7,8 +7,8 @@ int main()
   
     // string matching
     
-    string text = "adnanamna";
-    string pattern = "ananama";
+    string text = "adnanaamna";
+    string pattern = "nanaamna";
     int n = text.size();
     int m = pattern.size();
     vector<int> hash(27,m);
